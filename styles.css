@@ -161,3 +161,70 @@ tbody tr:nth-child(even) {
 tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.05); 
 }
+
+/* INDEX */
+
+.header-inicio {
+  margin-bottom: 40px;
+}
+
+.subtitulo {
+  color: var(--accent);
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.caja-autor {
+  background-color: var(--color-de-caja);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.caja-autor p {
+  margin: 0;
+  color: var(--text);
+  font-size: 1.1rem;
+}
+
+.nav-cajas {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.caja-enlace {
+  background-color: var(--color-de-caja);
+  border: 2px solid var(--color-de-caja);
+  border-radius: 10px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  color: var(--text);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0; 
+  transition: all 0.3s ease;
+}
+
+.caja-enlace h3 {
+  color: var(--accent);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.caja-enlace p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.caja-enlace:hover {
+  border-color: var(--accent);
+  background-color: var(--hover); 
+}
